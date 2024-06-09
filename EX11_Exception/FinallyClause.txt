@@ -1,0 +1,11 @@
+1,(2) Exception occurred
+->Because throw new Exception() is executed when count is 2 and the catch block is executed.
+
+1,(2) in finally clause
+->Because after the catch block is executed, the finally block is executed.
+
+2,(3) in finally clause
+->Because the count is 3 and the bureak statement is executed in the try block, but the finally block is always executed before the count.
+
+3,Main program ends.
+->Because count was 3 and the broke out of the while loop.

@@ -1,0 +1,20 @@
+output
+(x, y) = (8, 5)     ...1
+(x, y) = (100, 120) ...2
+(x, y) = (100, 120) ...3
+
+1
+In the test method, a new Point object p is create and initialized (8, 5).
+Then, printed and displayd this values (8, 5).
+
+2
+First, the movePoint method is called and reference to the p object is passed.
+Next, in the movePoint method, the values are changed to (100, 120) using the p object's setX and setY methods.
+Finally, printed and displayd changed values (100, 120).
+
+3
+First, initPoint method is called and reference to the p object is passed.
+Next, in the initPoint method, a new object to p is created.
+But the original reference to p is not changed.
+So, the values remain unchanged.
+Finally, printed and displayed values (100, 120).

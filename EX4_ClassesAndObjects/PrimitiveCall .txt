@@ -1,0 +1,2 @@
+ After executing movePoint, copy the arguments passed to the movePoint method and make the changes.
+ Therefore, the x and y values defined in the test method remain unchanged.
